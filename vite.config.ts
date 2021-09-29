@@ -20,9 +20,9 @@ export default defineConfig({
           @import "${resolve(__dirname, 'src/assets/less/common.less')}";
           @import "${resolve(__dirname, 'src/assets/less/reset.less')}";
         `,
-        javascriptEnabled: true,
+        javascriptEnabled: true
       }
-    },
+    }
   },
   server: {
     port: 8080,
