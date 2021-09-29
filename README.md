@@ -8,7 +8,7 @@
 #### 安装教程
 >1、clone下vue代码后，安装依赖 npm install ，运行服务npm run serve
 
->2、clone下上面网易云音乐NodeJs代码后，安装依赖 npm install ，运行服务npm run start
+>2、clone下上面网易云音乐NodeJs代码后，安装依赖 npm install ，运行服务npm run dev (vite 作为脚手架)
 
 #### 使用说明
 >若使用中，接口请求无数据，请查看前端请求接口与服务端提供的路径端口号是否一致
