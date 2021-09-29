@@ -345,7 +345,7 @@ const isCurSong = computed(() => {
 })
 
 const showSongList = computed(() => {
-  const a = props.songList.map((item: any) => {
+  const a = list.value.map((item: any) => {
     item.showCurrSong = String(item.id) === curSongInfo.value.id
     return item
   })
