@@ -16,6 +16,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       less: {
+        // 引入公共less 变量 reset
         additionalData: `
           @import "${resolve(__dirname, 'src/assets/less/common.less')}";
           @import "${resolve(__dirname, 'src/assets/less/reset.less')}";
